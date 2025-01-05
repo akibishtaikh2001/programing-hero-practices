@@ -7,10 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="Styles/nav.css">
     <style>
-        table{
-          border-collapse: collapse;
+        table {
+            border-collapse: collapse;
         }
-        td, th{
+
+        td,
+        th {
             border: 1px solid black;
             padding: 5px 10px;
         }
@@ -24,7 +26,23 @@
             <ul>
                 <li><a href="video.html">Video </a></li>
                 <li><a href="form.html">Form</a></li>
-                <li><a href="table.html">Table</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">Video </a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li>
+                            <a href="table.html">Table</a>
+                            <ul class="dropdown">
+                                <li><a href="video.html">Video </a></li>
+                                <li><a href="form.html">Form</a></li>
+                                <li><a href="table.html">Table</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </li>
                 <li><a href="blog.html">Blog</a></li>
             </ul>
         </nav>
@@ -89,7 +107,7 @@
             <li>Table data or table cell : td.</li>
             <li>Table head: th.</li>
 
-        </ul> 
+        </ul>
 
     </main>
 
