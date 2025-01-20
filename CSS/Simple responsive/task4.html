@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_box{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;   
+        }
+        .box{
+            display: flex;
+            gap: 20px;
+        }
+        .box img{
+            width: 30%;
+            height: 30%;
+        }
+        .btn{
+            background-color: blue;
+            color: aliceblue;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+        }
+
+        @media screen and (max-width:576px) {
+            .box{
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+        } 
+        .box img{
+            width: 100%;
+            height: 30%;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="main_box">
+        <div class="box">
+       
+            <img src="./image/food.jpg" alt="">
+        
+        <div>
+            <h1>Post title Will Be Here</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minus, voluptas perferendis quasi ex voluptates inventore, veniam corporis ratione ullam id fuga est atque explicabo. Dolorem, minus dolores necessitatibus doloribus, aut nulla ex optio blanditiis a quia excepturi reiciendis facere incidunt cumque similique ipsum illo, possimus deleniti at temporibus cum quo! Quasi, est ipsa. Assumenda doloremque recusandae numquam maiores debitis blanditiis accusamus, natus omnis quae animi non saepe. Rerum, consequatur perspiciatis. Praesentium voluptatem laborum, eligendi modi possimus consectetur inventore at? Rem, eos beatae qui id maxime odit doloribus omnis asperiores iure. Quaerat excepturi itaque eos quibusdam fuga? Atque, facere assumenda.</p>
+            <button class="btn">Read More</button>
+        </div>
+       
+    </div>
+    <div class="box">
+       
+        <img src="./image/food.jpg" alt="">
+    
+    <div>
+        <h1>Post title Will Be Here</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minus, voluptas perferendis quasi ex voluptates inventore, veniam corporis ratione ullam id fuga est atque explicabo. Dolorem, minus dolores necessitatibus doloribus, aut nulla ex optio blanditiis a quia excepturi reiciendis facere incidunt cumque similique ipsum illo, possimus deleniti at temporibus cum quo! Quasi, est ipsa. Assumenda doloremque recusandae numquam maiores debitis blanditiis accusamus, natus omnis quae animi non saepe. Rerum, consequatur perspiciatis. Praesentium voluptatem laborum, eligendi modi possimus consectetur inventore at? Rem, eos beatae qui id maxime odit doloribus omnis asperiores iure. Quaerat excepturi itaque eos quibusdam fuga? Atque, facere assumenda.</p>
+        <button class="btn">Read More</button>
+    </div>
+   
+</div>
+    </div>
+  
+</body>
+</html>
