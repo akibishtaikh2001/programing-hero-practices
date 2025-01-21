@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        .box img {
+            width: 40%;
+        }
+
+        .containt {
+            width: 38%;
+        }
+
+        @media screen and (max-width:576px) {
+            .box {
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+
+
+            }
+
+            .box2 {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+
+            
+
+            .box img {
+                width: 100%;
+            }
+            .containt {
+            width: 98%;
+          margin: 10px;
+        }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- .main_box>.box+img>h1+p -->
+    <div class="main_box">
+
+        <div class="box">
+
+            <img src="./image/food.jpg" alt="">
+            <div class="containt">
+                <h1>Why do we use it?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestiae alias sed totam maiores ut
+                    tenetur eveniet harum veniam, nesciunt fugit molestias libero quasi in, asperiores, aut magnam. Odio
+                    blanditiis accusantium, recusandae nostrum maxime architecto consectetur iusto impedit aut facere
+                    similique, temporibus excepturi incidunt mollitia ut quas id totam! Eaque.</p>
+            </div>
+
+        </div>
+        <div class="box box2">
+            <div class="containt">
+                <h1>Why do we use it?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestiae alias sed totam maiores ut
+                    tenetur eveniet harum veniam, nesciunt fugit molestias libero quasi in, asperiores, aut magnam. Odio
+                    blanditiis accusantium, recusandae nostrum maxime architecto consectetur iusto impedit aut facere
+                    similique, temporibus excepturi incidunt mollitia ut quas id totam! Eaque.</p>
+            </div>
+            <img src="./image/food.jpg" alt="">
+
+        </div>
+    </div>
+</body>
+
+</html>
